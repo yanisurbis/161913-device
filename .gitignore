@@ -5,5 +5,10 @@
 *.pdf
 *.psd
 *.sublime*
+package.json
+index.js
+build.js
+webpack.config.js
+yarn.lock
 node_modules/
 Thumbs.db

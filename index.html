@@ -1,12 +1,212 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Девайс</title>
-  </head>
-  <body>
-
-    <p>Репозиторий создан для обучения на интенсивном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">Базовый HTML и CSS</a>».</p>
-
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <title>Divice</title>
+</head>
+<body>
+  <nav class="main-navigation">
+    <a class="main-header-logo">
+      <img src="http://via.placeholder.com/164x36" alt="logo">
+    </a>
+    <!-- site-search -->
+    <ul class="user-navigation">
+      <li>Войти</li>
+    </ul>
+    <ul class="site-features">
+      <li>Сравнить</li>
+      <li>Корзина</li>
+    </ul>
+    <ul class="site-navigation">
+      <li class="catalog">Каталог товаров</li>
+      <li>Доставка</li>
+      <li>Гарантия</li>
+      <li>Контакты</li>
+    </ul>
+  </nav>
+  <main class="container">
+    <h1 class="visually-hidden">Buy gadgets online</h1>
+    <section class="product">
+      <h2 class="visually-hidden">Продукт</h1>
+      <span class="index">01</b>
+      <img src="http://via.placeholder.com/345x485" alt="product">
+      <b class="slogan">
+        Делай селфи,<br> как Бен Стиллер!
+      </b>
+      <p class="description">
+        Самая длинная палка для селфи доступна в нашем магазине.
+        Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.
+      </p>
+      <a href="#" class="about">Подробнее</a>
+      <ol>
+        <li>
+          <button class="toggle active">1</button>
+        </li>
+        <li>
+          <button class="toggle">2</button>
+        </li>
+        <li>
+          <button class="toggle">3</button>
+        </li>
+      </ol>
+      <ul>
+        <li>
+          <p class="feature-value">8,5 м</p>
+          <p class="feature">Длина палки</p>
+        </li>
+        <li>
+          <p class="feature-value">5 кг</p>
+          <p class="feature">Вес палки</p>
+        </li>
+        <li>
+          <p class="feature-value">Карбон</p>
+          <p class="feature">Материал</p>
+        </li>
+      </ul>
+    </section>
+    <section class="categories">
+      <h2 class="visually-hidden">Категории товаров</h1>
+      <ul>
+        <li>
+          <a href="#" class="category">
+            <img src="http://via.placeholder.com/160x160" alt="">
+            <p>Виртуальная реальность</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="category">
+            <img src="http://via.placeholder.com/160x160" alt="">
+            <p>Моноподы для селфи</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="category">
+            <img src="http://via.placeholder.com/160x160" alt="">
+            <p>Экшн-камеры</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="category">
+            <img src="http://via.placeholder.com/160x160" alt="">
+            <p>Фитнес-браслеты</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="category">
+            <img src="http://via.placeholder.com/160x160" alt="">
+            <p>Умные часы</p>
+          </a>
+        </li>
+        <li>
+          <a href="#" class="category">
+            <img src="http://via.placeholder.com/160x160" alt="">
+            <p>Квадрокоптеры</p>
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="features">
+      <h2 class="visually-hidden">Оказываемые услуги</h1>
+      <ul>
+        <li>
+          <button class="toggle active">Доставка</button>
+        </li>
+        <li>
+          <button class="toggle">Гарантия</button>
+        </li>
+        <li>
+          <button class="toggle">Кредит</button>
+        </li>
+      </ul>
+      <section class="feature">
+        <h3>Доставка</h3>
+        <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо заработаем, поднимая его на ваш этаж.</p>
+      </section>
+    </section>
+    <section class="brands">
+      <h2 class="visually-hidden">Брэнды с которыми мы работаем</h1>
+      <ul>
+        <li>
+          <a href="#" class="brand">
+            <img src="http://via.placeholder.com/160x160" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="brand">
+            <img src="http://via.placeholder.com/160x160" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="brand">
+            <img src="http://via.placeholder.com/160x160" alt="">
+          </a>
+        </li>
+        <li>
+          <a href="#" class="brand">
+            <img src="http://via.placeholder.com/160x160" alt="">
+          </a>
+        </li>
+      </ul>
+    </section>
+    <section class="about-us">
+      <h2>О нас</h2>
+      <p>Огромный выбор гаджетов не оставит равнодушным гика, который есть в каждом из нас.</p>
+      <section>
+        <h3 class="visually-hidden">О доставке</h1>
+        <p>Мы можем доставить ваш товар в самые отдаленные точки России! DEVICE работает со многими транспортными компаниями:</p>
+        <ul>
+          <li>Деловые Линии</li>
+          <li>Автотрейдинг</li>
+          <li>ЖелДорЭкспедиция</li>
+        </ul>
+      </section>
+      <a href="#">Подробнее о нас</a>
+    </section>
+    <section class="contacts">
+      <h2>Контакты</h2>
+      <p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
+      <button class="map"></button>
+    </section>
+    <section class="modal map">
+      <h2 class="visually-hidden">Как до нас добраться</h1>
+      <span class="modal-close">X</span>
+    </section>
+    <section class="modal contact-form">
+      <h2 class="visually-hidden">Свяжитесь с нами</h1>
+      <span class="modal-close">X</span>
+    </section>
+  </main>
+  <footer class="main-footer">
+    <a class="main-header-logo">
+      <img src="http://via.placeholder.com/164x36" alt="logo">
+    </a>
+    <!-- site-search -->
+    <ul class="user-navigation">
+      <li>Войти</li>
+    </ul>
+    <ul class="site-features">
+      <li>Сравнить</li>
+      <li>Корзина</li>
+    </ul>
+    <ul class="site-navigation">
+      <li class="catalog"></li>
+      <li>Доставка</li>
+      <li>Гарантия</li>
+      <li>Контакты</li>
+    </ul>
+    <div class="footer-social">
+      <ul>
+        <li>
+          <a class="social-button" href="#">Facebook</a>
+        </li>
+        <li>
+          <a class="social-button" href="#">Instagram</a>
+        </li>
+        <li>
+          <a class="social-button" href="#">Twitter</a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
 </html>
