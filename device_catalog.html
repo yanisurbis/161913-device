@@ -9,30 +9,62 @@
 <body>
   <nav class="main-navigation">
     <a class="main-header-logo">
-      DEVICE
+      <img src="/img/logo.png" alt="логотип сайта">
     </a>
-    <!-- site-search -->
+    <form class="main-search" action="https://echo.htmlacademy.ru" method="post">
+      <button type="submit">Отправить</button>
+      <input type="text" name="main-search" placeholder="apple watch" />
+    </form>
     <ul class="user-navigation">
-      <li>Валентин Петухов</li>
-      <li class="exit">Выйти</li>
+      <li>
+        <a href="#">Валентин Петухов</a>
+      </li>
+      <li>
+        <a href="#">Выйти</a>
+      </li>
     </ul>
     <ul class="site-features">
-      <li>Сравнить</li>
-      <li>Корзина</li>
+      <li>
+        <!-- to similar page http://www.e-katalog.ru/t149.htm -->
+        <a href="#">Сравнить</a>
+      </li>
+      <li>
+        <a href="#">Корзина</a>
+      </li>
     </ul>
     <ul class="site-navigation">
-      <li class="catalog">Каталог товаров</li>
-      <li>Доставка</li>
-      <li>Гарантия</li>
-      <li>Контакты</li>
+      <li>
+        <button type="button">Каталог товаров</button>
+      </li>
+      <li>
+        <button type="button">Доставка</button>
+      </li>
+      <li>
+        <button type="button">Гарантия</button>
+      </li>
+      <li>
+        <button type="button">Контакты</button>
+      </li>
     </ul>
     <ul class="catalog-menu">
-      <li>Виртуальная реальность</li>
-      <li>Моноподы для селфи</li>
-      <li>Экшн-камеры</li>
-      <li>Фитнес-браслеты</li>
-      <li>Умные часы</li>
-      <li>Квадрокоптеры</li>
+      <li>
+        <a href="#">Виртуальная реальность</a>
+      </li>
+      <li>
+        <a href="#">Моноподы для селфи</a>
+      </li>
+      <li>
+        <a href="#">Экшн-камеры</a>
+      </li>
+      <li>
+        <a href="#">Фитнес-браслеты</a>
+      </li>
+      <li>
+        <a href="#">Умные часы</a>
+      </li>
+      <li>
+        <a href="#">Квадрокоптеры</a>
+      </li>
     </ul>
   </nav>
   <main class="container">
@@ -40,33 +72,60 @@
     <section class="current-section">
       <h2>Моноподы для селфи</h2>
       <ol class="catalog-navigation">
-        <li>Главная</li>
-        <li>Каталог товаров</li>
-        <li>Моноподы для селфи</li>
+        <li>
+          <a href="#">Главная</a>
+        </li>
+        <li>
+          <a href="#">Каталог товаров</a>
+        </li>
+        <li>
+          <a href="#">Моноподы для селфи</a>
+        </li>
       </ol>
       <section class="filters">
         <h3 class="visually-hidden">Фильтры</h3>
         <p>Фильтр:</p>
-        <div>
-          <h4 class="visually-hidden">Фильтр по цене</h4>
-          <!-- controller -->
-        </div>
-        <div>
-          <h4 class="visually-hidden">Фильтр по цвету</h4>
-          <!-- checkboxes -->
-        </div>
-        <div>
-          <h4 class="visually-hidden">Фильтр по наличию bluetooth</h4>
-          <!-- radio buttons -->
-        </div>
+        <form action="https://echo.htmlacademy.ru" method="post">
+          <fieldset class="price-filter">
+            <legend>Фильтр по цене</legend>
+            <!-- controller -->
+          </fieldset>
+          <fieldset class="color-filter">
+            <legend>Фильтр по цвету</legend>
+            <label>
+              <input type="checkbox" name="color" value="black">Черный
+            </label>
+            <label>
+              <input type="checkbox" name="color" value="white">Белый
+            </label>
+            <label>
+              <input type="checkbox" name="color" value="blue">Синий
+            </label>
+            <label>
+              <input type="checkbox" name="color" value="red">Красный
+            </label>
+            <label>
+              <input type="checkbox" name="color" value="pink">Розовый
+            </label>
+          </fieldset>
+          <fieldset class="bluetooth-filter">
+            <legend>Фильтр по наличию bluetooth</legend>
+            <label>
+              <input type="radio" name="bluetooth" value="yes">Есть
+            </label>
+            <label>
+              <input type="radio" name="bluetooth" value="no">Нет
+            </label>
+          </fieldset>
+        </form>
         <button>Показать</button>
       </section>
       <section class="sort-by">
         <h3 class="visually-hidden">Сортировки</h3>
         <ul class="sort-options">
-          <li>По цене</li>
-          <li>По типу</li>
-          <li>По популярности</li>
+          <button>По цене</button>
+          <button>По типу</button>
+          <button>По популярности</button>
         </ul>
         <ul class="sort-direction">
           <li>По возрастанию</li>
@@ -135,11 +194,18 @@
     </p>
     <!-- site-search -->
     <ul class="user-navigation">
-      <li>Войти</li>
+      <li>
+        <a href="#">Выйти</a>
+      </li>
     </ul>
     <ul class="site-features">
-      <li>Сравнить</li>
-      <li>Корзина</li>
+      <li>
+        <!-- to similar page http://www.e-katalog.ru/t149.htm -->
+        <a href="#">Сравнить</a>
+      </li>
+      <li>
+        <a href="#">Корзина</a>
+      </li>
     </ul>
     <ul class="site-navigation">
       <li class="catalog"></li>
